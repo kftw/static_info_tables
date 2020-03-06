@@ -245,7 +245,7 @@ class LocalizationUtility
      */
     public static function getIsoLanguageKey($key)
     {
-        return $key === 'default' ? 'EN' : $key;
+        return $key === 'default' ? 'DE' : $key;
     }
 
     /**
@@ -306,7 +306,7 @@ class LocalizationUtility
             }
         }
         if (!self::$languageKey || self::$languageKey === 'default') {
-            self::$languageKey = 'EN';
+            self::$languageKey = 'DE';
         }
     }
 

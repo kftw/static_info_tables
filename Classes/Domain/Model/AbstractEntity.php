@@ -91,6 +91,7 @@ class AbstractEntity extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
                 $value = $this->_getProperty($this->columnsMapping[$labelField]['mapOnProperty']);
                 if ($value) {
                     $this->nameLocalized = $value;
+
                     break;
                 }
             }
